@@ -18,16 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     <!-- FontAwesome -->
-
-    <!-- Spline 3D Model -->
-
-    <script 
-      type="module" src="https://unpkg.com/@splinetool/viewer@1.9.35/build/spline-viewer.js">
-    </script>
     
-    <!-- Spline 3D Model -->
-    
-    <title>Tech Trade</title>
+    <title>Fale Conosco</title>
 
 </head>
 <header>
@@ -39,7 +31,7 @@
 
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-              <a class="navbar-brand logo text-uppercase" href="/home/index.html"><img src="images/TechTrade Logo.svg" alt="Tech Trade logo" class="logo-img"></a>
+              <a class="navbar-brand logo text-uppercase" href="/home/index.html"><img src="/home/images/TechTrade Logo.svg" alt="Tech Trade logo" class="logo-img"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -78,35 +70,51 @@
 
     <!-- Home Section -->
 
-    <div class="container">
-      <div class="content-home">
-          <div class="row content-home2">
-              <div class="col-lg-7 col-md-5">
+    <div class="container-contact">
 
-                  <div class="box-container">
-                    <spline-viewer class="image-home" url="https://prod.spline.design/bYEgEy0-CezFt4s2/scene.splinecode"></spline-viewer>
-                  </div>
+        <div class="item">
+            <div class="contact">
+                <div class="title">Fale Conosco</div>
+                <img src="/contact/images/contact-us.svg" alt="" class="image-contact-us">
+                <div class="social-links">
+                    <span class="sub-title">Conecte-se com a gente:</span>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f" target="_blank"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram" target="_blank"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp" target="_blank"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin" target="_blank"></i></a></li>
+                    </ul>
+                </div>
+            </div>
 
-              </div>
-              <div class="col-lg-5 col-md-7">
-                  <div class="box-container2">
-                      <h1 class="home-heading">
-                           <span class="home-span1">Sustentabilidade</span> e <span class="home-span2">Inovação</span>, na mesma <span class="home-span3">Conexão</span>
-                          <P class="para-home">
-                            Faça uma avaliação do seu dispositivo antigo para aproveitar os descontos em nossa loja
-                          </P>
-                          <div class="btn-home">
-                            <a href="#" class="home-links btn-1">Avaliar</a>
-                            <a href="#" class="home-links btn-2">Explorar</a>
-                          </div>
-                      </h1>
-                  </div>
-              </div>
-          </div>
-      </div>
-   </div>
 
-   <!-- Home Section -->
+            <div class="submit-form">
+                <h4 class="title-form">Entre em contato</h4>
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" id="input" required>
+                        <label for="">Nome</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" id="input" required>
+                        <label for="">E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" id="input" required>
+                        <label for="">Celular</label>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="" id="input" cols="30" rows="30" required></textarea>
+                        <label for="">Mensagem</label>
+                    </div>
+                    <input type="submit" value="Submit" class="btn-submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Home Section -->
 
 </body>
 
@@ -116,7 +124,7 @@
 
   <div id="footer_content">
     <div id="footer_contacts">
-        <img class="mascot-img" src="images/Mascote.svg" alt="">
+        <img class="mascot-img" src="/home/images/Mascote.svg" alt="">
 
         <div id="footer_social_media">
             <a href="#" class="footer-link" id="instagram" target="_blank">

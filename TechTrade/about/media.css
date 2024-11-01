@@ -1,0 +1,81 @@
+/* Navbar Section */
+
+@media (max-width: 1500px){
+    .heading-contact{
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .nav-item .nav-link{
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .navbar-nav .nav-item{
+        margin: 8px 0px;
+    }
+}
+
+/* Navbar Section */
+
+/* Our Mission Section*/
+
+@media (max-width: 1450) {
+    div.about-us {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .main-img .image-about{
+        width: 400px;
+    }
+}
+
+/* Our Mission Section */
+
+/* Our Team Section */
+
+@media screen and (min-width: 768px) {
+    section {
+      padding: 1em 7em;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em;
+    }
+    .card-team {
+      padding: 5em 1em;
+    }
+    .column-team {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 0 1em;
+    }
+  }
+
+/* Our Team Section */
+
+/* Footer Section */
+
+@media screen and (max-width: 768px) {
+
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+/* Footer Section */
